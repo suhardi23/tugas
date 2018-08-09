@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<title>internal CSS & inline CSS </title>
+	<!-- internal CSS -->
+	<style>
+	body{
+		font-family: 'open sans', sans serif;
+	}
+	h1 {
+		color:#203bd5;
+		font-family: 'open sans', sans-serif;
+		text-align:center;
+		
+	}
+	h1 i {
+		color:#6a6b6d;
+		}
+		
+		nav {
+		background:#2c883e;
+		color:#fff;
+	}
+	nav a	{
+		color:#fff;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	nav a :hover {
+		color:#f8af25;
+		text-decoration:underline;
+	}
+	
+	/*	ID selector */
+	#intro {
+		background:#eee;
+		border:2px solid #d4d1d1;
+	}
+	
+	/* class selector */
+	.bg-image {
+		background: url(img/paper.gift);
+	}
+	
+	</style>
+</head>
+<body>
+	<h1>internal CSS & <i>inline CSS</i></h1>
+	<nav>
+		<a href="01.html">Home</a> |
+		<a href="01.html">About</a> |
+		<a href="01.html">Blog</a>
+	</nav>
+	
+	<!-- ID selector -->
+	<div id="intro">
+		<h2>Hello world!</h2>
+		<p>Kami sedang belajar HTML dan CSS dasar, pada matakuliah<b>Perancangan Web</b> di <i> STT Peita Bangsa</i>. pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+		</div>
+		
+		<!-- inline css -->
+		<hr style="border-style: solid; border-width: 4px; border-color: rgb (229, 82, 82) ;">
+		
+		<div class="bg-image">
+			<h2>penggunakan background Image</h2>
+			<p>berikut ini contoh penggunaan background image.</p>
+			<p>contoh ini berisi beberapa metode CSS, pada bagian ini kita telah memahami bagaimana panggilan CSS dengan ID selector dan class selector, dan bagaimana cara memanggil background berpa gambar. Dalam hal ini gambar ditampilkan sebagai background dan di ulang/repeat-x dan repeat-y secara otomatis.</p>
+		</div>
+
+	</body>
+	<?html>	
